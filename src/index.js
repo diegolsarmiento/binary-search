@@ -76,7 +76,7 @@ class BST {
   // all first childs and sibblings
   // -not like deep breadth first-
   // Useful: Define a hierarchy or top level 
- breadthFirstTraversal(iteratorFunc){
+  breadthFirstTraversal(iteratorFunc){
    let queue = [this];
    while(queue.length){
      let treeNode = queue.shift();
